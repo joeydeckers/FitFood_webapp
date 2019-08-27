@@ -1,0 +1,24 @@
+#navbar .navbar {
+  background: transparent !important;
+}
+
+#navbar .navbar-brand {
+  color: #000;
+}
+
+#navbar .dropdown-item {
+  color: #000;
+}
+
+#navbar .dropdown-item:hover {
+  background: transparent;
+}
+
+.btn {
+  padding: 8px 40px !important;
+}
+
+.container {
+  max-width: 1340px !important;
+}
+/*# sourceMappingURL=main.css.map */

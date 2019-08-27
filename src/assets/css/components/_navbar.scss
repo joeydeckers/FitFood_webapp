@@ -1,0 +1,14 @@
+#navbar{
+    .navbar{
+        background: transparent !important;
+    }
+    .navbar-brand{
+        color: #000;
+    }
+    .dropdown-item{
+        color: #000;
+        &:hover{
+            background: transparent;
+        }
+    }
+}
