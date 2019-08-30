@@ -7,7 +7,7 @@ const state = {
 
 const getters = {
     getAllRecipes:(state) =>{
-        return state.items;
+        return state.recipes;
     },
     getSpecificRecipe(state){
         return projectName => state.items.filter(item => {
@@ -19,10 +19,10 @@ const getters = {
 const actions = {
     getRecipes ({commit}){
         axios
-            .get("http://127.0.0.1:8000/api/recipes")
+            .get("http://127.0.0.1:8000/api/recipes", {headers: { 'content-type': 'application/json' }})
             .then(r => r.data)
-            .then(items => {
-                console.log(items);
+            .then(recipes => {
+                commit('SET_RECIPES', recipes)
             })
     }
 };

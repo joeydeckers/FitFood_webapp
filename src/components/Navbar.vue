@@ -9,8 +9,8 @@
 
             <!-- Right aligned nav items -->
             <b-navbar-nav class="ml-auto">
-                <b-dropdown-item href="#">Profile</b-dropdown-item>
-                <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+                <b-dropdown-item class="menu-item-extra-margin" href="#">Profile</b-dropdown-item>
+                <b-dropdown-item class="menu-item-extra-margin" href="#">Sign Out</b-dropdown-item>
                 <b-dropdown-item>
                     <Button buttonText="Login" />
                 </b-dropdown-item>

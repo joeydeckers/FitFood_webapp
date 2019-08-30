@@ -1,4 +1,5 @@
 #navbar{
+    margin-top: 20px;   
     .navbar{
         background: transparent !important;
     }
@@ -6,9 +7,14 @@
         color: #000;
     }
     .dropdown-item{
-        color: #000;
+        color: #000; 
         &:hover{
             background: transparent;
+        }
+    }
+    .menu-item-extra-margin{
+        .dropdown-item{
+            margin-top: 7px;
         }
     }
 }
