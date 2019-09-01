@@ -24,14 +24,28 @@
       </b-row>
     </section>
     <section id="featured-food">
-      <h2>Our featured food</h2>
+      <b-row>
+        <b-col lg="6">
+          <h2 class="featured-food-heading">Our featured food</h2>
+        </b-col>
+        <b-col lg="6">
+          <p class="cta-see-more">See more</p>
+        </b-col>
+      </b-row>
+      
+      
       <b-row>
         <b-col lg="3" v-for="recipe in getAllRecipes.slice(0,5)" :key="recipe.id">
-          {{recipe.recipe_name}}
-          <!-- Needs to be component -->
           <RecipeCard :recipeImage="recipe.recipe_image" :recipeName="recipe.recipe_name" :recipeCategory="recipe.recipe_category"/>
         </b-col>
       </b-row>
+      <Button
+        style="box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); margin: 0 auto; display:block;"
+        buttonText="Discover more"
+        buttonColor="#FF9900"
+        buttonBorderColor="#FF9900"
+        buttonFontColor="#fff"
+      />
 
     </section>
     <section id="about"></section>
