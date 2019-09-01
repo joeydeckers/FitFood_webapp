@@ -43,6 +43,17 @@
   font-size: 20px;
 }
 
+#cta {
+  background-image: url("../cta-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 40px;
+}
+
+#cta h2 {
+  color: #fff;
+}
+
 #navbar {
   margin-top: 20px;
 }

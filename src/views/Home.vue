@@ -48,6 +48,15 @@
       />
 
     </section>
+    <section id="cta">
+      <h2>Have some great recipes you want to share?</h2>
+      <Button
+        buttonText="Register now"
+        buttonColor="#FF9900"
+        buttonBorderColor="#FF9900"
+        buttonFontColor="#fff"
+      />
+    </section>
     <section id="about"></section>
   </div>
 </template>
